@@ -406,3 +406,21 @@ main {
     margin-top: 3em;
   }
 }
+
+/*===============
+  link styles
+===============*/
+
+a {
+	color: var(--primary);
+	padding: 3px;
+	background-size: 200%;
+	background-position: -0% 0;
+	background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, var(--primary) 50%, var(--light-secondary) 100%);
+	transition: background-position 0.3s ease;
+	border-radius: 3px;
+}
+a:hover {
+	background-position: -100% 0;
+  color: white;
+}
