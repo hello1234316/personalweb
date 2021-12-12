@@ -3,7 +3,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    background-color: #131b21;
+    background-color: hsla(89, 43%, 51%, 0.3);
 }
 .bgn {
     background-color: white;
