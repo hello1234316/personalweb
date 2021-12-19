@@ -25,7 +25,7 @@
 <script async src='js/invisible.js'></script></head>
 
 <body>
-
+<div class="loading"></div> 
    <style>
     /* customizable sus styling */
     .snowflake {
@@ -104,6 +104,9 @@
            <li class="nav-item">
             <a class="nav-link" href="sus/sus.html">SUS page</a>
           </li>
+          <script type="text/javascript"> 
+          $('.loading').animate({'width':'33%'},50); //第一個進度節點 
+         </script> 
                   <li class="nav-item">
             <a class="nav-link" href="discordchat/chat.html">Discord chat</a>
           </li>
