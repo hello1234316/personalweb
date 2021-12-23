@@ -1,0 +1,66 @@
+.card {
+    background: 0 0;
+    border: 0;
+    padding: .5rem
+}
+
+.card .card-title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0
+}
+
+.grid-hero {
+    padding-bottom: 0.5rem;
+    padding-top: 5.6rem
+}
+
+.grid-hero h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem
+}
+
+.grid-hero h2 {
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem
+}
+
+.grid-hero h2 u {
+    border-bottom: .1rem solid currentColor;
+    padding-bottom: .05rem;
+    text-decoration: none
+}
+
+.card-body img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width:375px) {
+    p.btns-frame .btn.btn-lg {
+        padding-left: .4rem !important;
+        padding-right: .4rem !important;
+    }
+    .card-header {
+        padding-top: .5rem !important;
+    }
+}
+
+@media (max-width:600px) {
+    .grid-hero h2 {
+        font-size: .9rem
+    }
+    .grid-hero .card {
+        padding: 0
+    }
+    .btns-frame {
+        margin-left: -.9rem;
+        margin-right: -.9rem;
+    }
+    .mr-2 {
+        margin-right: .05rem !important
+    }
+}
