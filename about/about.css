@@ -27,7 +27,7 @@ body{
   height: 100vh;
 }
 
-.login{
+.about{
   width: 240px;
   position: absolute;
   top: 50%;
@@ -96,5 +96,5 @@ p{
   h1{font-size: 2em;}
   p{font-size: 1rem;}
   .btn{font-size: 1.2rem;}
-  .login{max-width: 250px;width: 80%;padding: 20px 10px;}
+  .about{max-width: 250px;width: 80%;padding: 20px 10px;}
 }
