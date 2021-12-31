@@ -160,9 +160,9 @@
 			
 			htmlBar += '<div class="pjAcceptCookieBarShell">';
 			htmlBar += '<form action="#" method="post">';
-			htmlBar += '<p>We use cookies to ensure that we give you the best experience on our website. <br />By closing this message, you consent to our cookies on this device in accordance with our cookie policy unless you have disabled them.</p>';
+			htmlBar += '<p>我們使用 cookie 來確保在我們的網站上為你提供最佳體驗。 </p>';
 			htmlBar += '<div class="pjAcceptCookieBarActions">';
-			htmlBar += '<button type="button" class="pjAcceptCookieBarBtn">I Agree!</button>';
+			htmlBar += '<button type="button" class="pjAcceptCookieBarBtn">知道了</button>';
 			htmlBar += '</div>';
 			htmlBar += '</form>';
 			htmlBar += '</div>';
