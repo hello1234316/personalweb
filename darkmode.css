@@ -112,15 +112,7 @@
 
 
 
-.sidebar-container {
-	width: 0;
-	position: fixed;
-	left: 0;
-	top: 0;
-	background: var(--secondary-color);
-	transition: var(--transition-buttons);
-	height: 100%;
-}
+
 	
 .sidebar {
 	width: 0;
