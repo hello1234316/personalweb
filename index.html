@@ -240,6 +240,30 @@
         </div>
       </div>
     </footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<div class="logoload"></div>
+<style>
+.logoload {
+  /* SET BACKGROUND COLOR */
+  background-color: #000000;
+  /* SET BACKGROUND SIZE */
+  background-size: 110px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("load2.gif");
+}
+</style>
+<script type="text/javascript">
+$(window).load(function() {
+    $(".logoload").delay(500).fadeOut("slow");
+})
+</script>
 <script src="cookie/cookie.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
