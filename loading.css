@@ -1,7 +1,7 @@
 .loading{
- background:#FF6100; //設定進度條的顏色 
- height:5px; //設定進度條的高度
- position:fixed; //設定進度條跟隨螢幕滾動
- top:0; //將進度條固定在頁面頂部 
- z-index:99999 //提高進度條的優先層級，避免被其他層遮擋
+ background:#FF6100; 
+ height:5px; 
+ position:fixed; 
+ top:0; 
+ z-index:99999 
   } 
