@@ -19,7 +19,7 @@
   right: 2rem;
   padding: 1rem 1.5rem;
   font-size: 2rem;
-  background: #ffae00;
+  background: #00ffe1;
   color: rgb(13, 0, 44);
   border-radius: 50%;
   transition: 1s linear;
@@ -51,8 +51,8 @@
 .cursor::after {
   content: "";
   border-top: 8px solid #000000;
-  border-left: 8px solid #f7d203;
-  border-right: 8px solid #f7d203;
+  border-left: 8px solid #00ffff;
+  border-right: 8px solid #00ffff;
   border-bottom: 8px solid #000000;
   opacity: 0.8;
   width: 20px;
