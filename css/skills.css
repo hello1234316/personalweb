@@ -73,15 +73,15 @@
   border-radius: 4px;
 }
 .skills .container .col .bar .html:before {
-  width: 98%;
+  width: 100%;
   background: #e03d0b;
 }
 .skills .container .col .bar .css:before {
-  width: 95%;
+  width: 100%;
   background: #2962ff;
 }
 .skills .container .col .bar .javascript:before {
-  width: 90%;
+  width: 100%;
   background: #ffd900;
 }
 .skills .container .col .bar .bootstrap:before {
@@ -113,7 +113,7 @@
   background: #2fdf7e;
 }
 .skills .container .col .bar .nodejs:before {
-  width: 82%;
+  width: 100%;
   background: #298521;
 }
 .skills .container .col .bar .vcs:before {
