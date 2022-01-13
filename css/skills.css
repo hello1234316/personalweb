@@ -1,6 +1,6 @@
 /* skills section starts */
 .skills {
-  background: linear-gradient(to bottom, #aa88ff, #aa88ff);
+  background: linear-gradient(to bottom,  #272928,  #272928);
 }
 .skills h2 {
   color: #fff;
@@ -9,7 +9,7 @@
   color: rgb(255, 230, 0);
 }
 .skills .container {
-  background: rgba(0, 0, 22, 0.4);
+  background:  #272928;
   border-radius: 1rem;
   padding: 2rem;
   margin: 1rem;
@@ -35,7 +35,7 @@
   padding: 10px;
   border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  background: rgba(0, 0, 22, 0.9);
+  background:  #272928;
   transition: 0.2s;
 }
 .skills .container .col .bar:hover {
