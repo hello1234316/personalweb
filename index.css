@@ -3,7 +3,7 @@
 
 
 body {
-  background-image: url('../photos/space.gif'); 
+  background-image: url('space.gif'); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
